@@ -1,0 +1,288 @@
+Illegalmonitorstateexception
+
+https://stackoverflow.com/questions/5858743/driver-wait-throws-illegalmonitorstateexception
+
+Why do someone have to return SET but not List. ex: Set<String> s1=driver.getWindowHandles(); this is in SELENIUM
+
+Try-with-resources with resource is only good for IO stream, IO resources such as sql, file.txt and etc.
+http://tutorials.jenkov.com/java-exception-handling/try-with-resources.html
+https://stackoverflow.com/questions/17739362/java7-try-with-resources-statement-advantage#17739460
+https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+
+equals vs ==
+
+equal method vs hashcode
+
+comparator vs comparable
+
+ArrayList, List, LinkedList, Set, TreeSet, Map, HashMap, Hash
+
+Strong Development Skills in Java (JDK 1.7 & above)  
+Java 5 Features: Enums, Annotations, Generics, Auto boxing, Loops, Concurrent APIs etc.  
+Strong in software development process, test driven development.  
+Strong OO design skills/implementation of design patterns.  
+Experience with Multithreading/Data Structures and Algorithms is highly preferred  
+Good communication skills and ability to work with global teams to define and deliver on projects.  
+Strong experience with J2EE, Core Java (Serialization, Synchronization, Concurrency, Reflection) 
+Frameworks/ORM tools (Struts/Springs/Hibernate/toplink/JPA/Ibatis etc.), Presentation Layer (JSP/Servlet)/Web Services , 
+Databases, Build and Release, Systems Integration, Agile, Estimations/Planning, OOPS Concepts, Client Management/Interaction.  
+
+
+Technical Qualifications
+
+BE/MS in Computer Science or equivalent qualification.
+8+ years of relevant work experience, including development and/or test automation experience.
+Experience in building automation framework, simulators and automating complex feature’s.
+Excellent coding & Analytical skill in Java and must have experience in designing and writing JUnit tests.
+Must have experience testing complex features with customer aspect test scenarios for the feature life cycle.
+Must able to understand problems in software, isolate as need and file a defect with clear/detailed instruction.
+Experience in using any Bug Tracking, Test case management and Version Control Systems.
+Must have experience with at least one web based UI Automation tool (ex. Selenium/Protractor).
+Work experience in sprint boot automation framework is added plus.
+Experience with at least one scripting language ex. Shell, Perl, Java Script etc.
+Knowledge on Database concepts and should have an exposure for PL/SQL.
+Basic knowledge in handling Unix/Linux environment.
+
+0.00170400
+
+Our Tech Stack for product delivery:
+
+Web Tier – Tomcat, Angular.js, JavaScript, Bootstrap
+App Tier – JBoss, Websphere, JEE, Quartz
+Data Tier – DB2, HDFS (future)
+Testing - SoapUI, Postman, Selenium WebDriver, Protractor, Rest Assured, Test Rail
+Performance Testing: JMeter, New Relic
+Programming Languages: Java, JavaScript
+
+
+http://www.seleniumeasy.com/jenkins-tutorials/set-up-testng-reports-in-jenkins   https://reportng.uncommons.org/
+
+http://www.seleniumeasy.com/testng-tutorials/testng-customize-emailable-html-report-example
+http://www.seleniumeasy.com/testng-tutorials/how-to-take-screenshot-for-only-failed-tests-using-webdriver
+http://www.seleniumeasy.com/testng-tutorials/configuring-reportng-with-testng-to-generate-html-reports
+http://www.seleniumeasy.com/testng-tutorials/testng-test-case-priority
+http://www.seleniumeasy.com/selenium-tutorials/testing-in-multiple-browsers
+https://duckduckgo.com/?q=how+to+add+custom+reporting+with+cucumber&atb=v70-1_z&ia=qa
+http://www.vimalselvam.com/2016/03/28/cucumber-custom-html-report-using-extent-report/
+http://extentreports.com/
+http://www.vimalselvam.com/cucumber-extent-reporter/
+https://mkolisnyk.blogspot.in/2015/05/cucumber-jvm-advanced-reporting.html
+https://damienfremont.com/2015/07/30/how-to-cucumber-test-reporting-plugin-with-maven-and-java/
+
+
+You have experience with Espresso, XCUITest, Appium, Calabash, UIAutomator, UI Automation, Robotium
+Testing
+
+Black - white box
+
+priority - low medium high
+severiy - critical - major - medium - cosmetic
+
+System Integration Testing
+System Testing
+Unit, System & Integration Testing
+Exploratory Testing
+Automated Testing -
+Design, write and execute automated test scripts
+Using test automation frameworks and the management of automated test suites for continuous integration and regression testing
+Continuous Integration Testing
+Manual Testing
+Design, write and execute manual test scripts covering various testing phase
+
+
+equal method vs hashcode
+
+comparator vs comparable
+
+binarysearch vs sorted 
+
+ArrayList, List, LinkedList, Set, TreeSet, Map, HashMap, Hash
+
+BufferedInputSteam
+
+
+linux commands - grep, 
+
+singleton
+abstract
+dto
+dao
+
+decorator - what is the significance - what is business case - what does it do.
+
+javascript
+dom
+
+cloneable
+serializable
+RandomAccess implemented by ArrayList
+
+
+Requirements
+
+University Degree/College Diploma in a business, mathematics, computer science or technology related field preferred.
+3+ years of hands-on Java Development.
+1+ year of utilizing JDBC within Java.
+Excellent knowledge of relational databases.
+Experience with Tomcat Preferred.
+Experience with Google Web Toolkit preferred.
+BS/MS degree in Computer Science/Engineering or related subject.
+
+
+Strong working knowledge of SOAP based web services
+Experience in designing systems that use XML, XSLT and schemas
+Ability to create effective design documentation and UML diagrams
+
+Bonus points for experience with:
+
+Prolog/ECLiPSe, Visual Studio, 4th Dimension, Python, Perl, PowerShell, GitHub, NoSQL
+Functional programming (Scala), Agent programming (Jade/GOAL), Machine learning.
+Constraint logic programming, Interval arithmetic.
+Supply Chain Planning / Optimization.
+Front-end development: JavaScript, HTML 5 (Spring Web MVC)
+AWS experience.
+Own a copy of Martin Fowlers book on refactoring.
+Brainfuck programming skills.
+
+list, set, maps , queue
+
+linkedlist sorting and placing  https://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/
+
+
+
+
+
+
+
+A QA Automation Engineer required to develop an automation framework, putting in place Continuous Integration /Delivery Pipeline, 
+integration with Test Management Tool and integration of existing automated test suites in new framework thereby ensuring that 
+test coverage is achieved in the most appropriate way.
+
+
+
+Selenium:
+1) Diff btw implict wait and Explict wait 
+
+
+File screenshot = ((TakesScreenshot) driver)
+                .getScreenshotAs(OutputType.FILE);
+		try
+		{
+		FileUtils.copyFile(screenshot,new File(fileName));
+		
+		
+String s = System.getProperty("bower_Dimension");
+	        	String s1[] = s.split(",");
+	        	driver.manage().window().setSize(new Dimension(Integer.valueOf(s1[0]), Integer.valueOf(s1[1])));
+				
+				
+Actions action = new Actions(driver);
+		action.moveToElement(element).build().perform();
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+	    executor.executeScript("arguments[0].click();", buttonElement);
+		
+		
+WebElement myElement = findElement(element,page);
+		Point p = myElement.getLocation();
+        int y = p.getY();
+        return y;
+		
+		
+		
+SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5;
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+
+Strong Core Java and Fundamentals
+
+o Experience with Java 8 functional programming patterns
+
+o  understanding of Java collections framework including their performance implications of various data structures and algorithms
+
+o  understanding of Java threading/concurrency this not only includes synchronized blocks, wait notify,
+ but also executors, ThreadPools, Fork/Join, blocking queues, 
+
+ Conversant in Java/J2ee. (concepts like immutable class, inheritance, custom collections)
+ 
+ 
+ Category:Technology - Difference and Comparison | Diffen
+ http://www.herongyang.com/JVM/RunTime-What-Is-Runtime.html
+ http://www.herongyang.com/JVM/RunTime-Class-The-JVM-Instance.html
+ http://www.herongyang.com/JVM/System-What-Is-java-lang-System.html
+ http://www.herongyang.com/JVM/System-Class-The-Operating-System.html
+ http://www.herongyang.com/JVM/
+ https://viralpatel.net/blogs/java-virtual-machine-an-inside-story/
+ JConsole
+ 
+ ************* Main method execution in jUnit *******************************
+ http://sqa.fyicenter.com/FAQ/JUnit/Do_You_Need_to_Write_a_main_Method_in_a_JUnit_.html
+ https://junit.org/junit4/faq.html
+ 
+ ****************************************************************************
+ 
+ 
+ apl ,may, jun , july 
+ july 4 - 1.5  = 1250 * 3 * 3 = 11250
+ 
+ july aug sep oct nov dec = 1875 * 6 = 11250
+ jan 1 - 1   = 
+ feb 22 - 50k = 1250
+ 
+ 23 750
+ 
+ 
+ 70 fixed any senior variable pay + 
+ 12.3 fixed 
+ 
+ 
+ ****************** Java 7 Class to Revise ************************8
+ 
+ LinkedHashMap vs HashMap  - data struture q34
+ Anonymous
+ Files (not file)
+ Path and Paths  Path p1 = Paths.get("c:\\temp\\test1.txt");
+ RandomAccessFile
+ FileWriter
+ FileChannel
+ synchronized (keyword and usage)
+ Locale (new Locale.Builder().setLanguage("hinglish").setRegion("IN").build(); )
+ ResourceBundle
+ Enumeration
+ volatile keyword
+ What is starting a thread by passing an object of class that implements runnable
+ AtomicInteger
+ DAO Pattern
+ Factory pattern
+ Singleton Pattern
+ Generics   List<?> list = new ArrayList<>(Arrays.asList(names));
+ printf ( diff args)
+ Deque and ArrayDeque
+ Pattern and Matcher classes in java 7
+ StringTokenizer
+ Bufferedwritter
+ SimpleDateFormat
+ AutoCloseable
+ CallableStatement
+ 
+ https://caveofprogramming.teachable.com/p/java8
+ 
+ 
+ 
+ ****************** Files - Path - Paths - CopyOption ************************************
+ 
+ Path p1 = Paths.get("c:\\temp\\test1.txt");         Path p2  = Paths.get("c:\\temp\\test2.txt");
+ 
+ Files : Files.move(p1, p2, StandardCopyOption.REPLACE_EXISTING) - Files.move returns a Path object (of the destination file),
+ Files.copy(p1, p2, StandardCopyOption.REPLACE_EXISTING); --- Path copy(Path source, Path target, CopyOption... options)
+   Files.copy returns Path Object
+   
+ Files.move(p1, p2, StandardCopyOption.REPLACE_EXISTING); --- Path move(Path source,  Path target,    CopyOption... options)
+   Files.move returns Path object
+ 
+ ******************************************************************************************
+ 
+ 
+   
+ 
+ 
